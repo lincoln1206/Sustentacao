@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
 import javax.swing.*;
+import java.awt.*;
 import java.io.*;
 import java.nio.channels.FileChannel;
 
@@ -59,6 +60,7 @@ public class SalvarLerPadroes {
         Padroes p = new Padroes();
 
         if (!arquivoPadroes.exists()) {
+            Toolkit.getDefaultToolkit().beep();
             JOptionPane.showMessageDialog(null, "Arquivo de Caminhos Padrão não existe!");
             p.setCaminhoChamados(JOptionPane.showInputDialog("Digite o caminho padrão para salvar os chamados"));
             p.setCaminhoGMUD("\\\\10.1.1.14\\ScriptsDesenv\\");
