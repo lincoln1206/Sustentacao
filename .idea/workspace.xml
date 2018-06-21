@@ -6,10 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c241a33b-ad95-4fe2-b589-e360e1bd0b5d" name="Default" comment="">
+    <list default="true" id="c241a33b-ad95-4fe2-b589-e360e1bd0b5d" name="Default" comment="Update 1.0.8">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Sustentacao_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Sustentacao_1_0_jar.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/padroes.json" afterPath="$PROJECT_DIR$/padroes.json" />
+      <change beforePath="$PROJECT_DIR$/Sustentacao 1.0.iml" afterPath="$PROJECT_DIR$/Sustentacao 1.0.iml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Sustentacao_1_0_jar/Sustentacao 1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Metodos/Metodos.java" afterPath="$PROJECT_DIR$/src/main/java/Metodos/Metodos.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java" afterPath="$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/Principal.java" afterPath="$PROJECT_DIR$/src/main/java/Principal/Principal.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java" afterPath="$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Metodos/Metodos.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Metodos/SalvarLerPadroes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/Principal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Variaveis/Padroes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Variaveis/Variaveis.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +38,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="680">
+              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -35,34 +48,30 @@
       <file leaf-file-name="Metodos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1292">
+              <caret line="89" column="32" lean-forward="false" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalvarLerPadroes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SalvarLerPadroes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            <state relative-caret-position="1105">
+              <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="476">
+              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +92,8 @@
       <file leaf-file-name="Padroes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -93,8 +102,8 @@
       <file leaf-file-name="Variaveis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -106,8 +115,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>f</find>
+      <find>caminhoChamado</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -121,12 +137,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java" />
         <option value="$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Metodos/Metodos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Principal/Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java" />
         <option value="$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Principal/Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Metodos/Metodos.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaFX/sample.fxml" />
       </list>
     </option>
   </component>
@@ -163,29 +180,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
@@ -202,16 +206,41 @@
               <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Metodos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Principal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sustentacao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Variaveis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sustentacao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +253,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2045977" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
@@ -235,7 +264,8 @@
     <property name="LombokPluginIS_RUNTIME_PATCH_Enabled" value="true" />
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/META-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="f&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,18 +401,38 @@
       <updated>1519616094268</updated>
       <workItem from="1519616097516" duration="836000" />
       <workItem from="1519617065468" duration="1719000" />
+      <workItem from="1519741746837" duration="745000" />
+      <workItem from="1519742624472" duration="833000" />
+      <workItem from="1519831287611" duration="4247000" />
+      <workItem from="1519841142100" duration="1009000" />
+      <workItem from="1519846012677" duration="1969000" />
+      <workItem from="1521128889564" duration="45000" />
+      <workItem from="1521129134744" duration="5524000" />
+      <workItem from="1521214692048" duration="5759000" />
+      <workItem from="1521478963447" duration="1630000" />
+      <workItem from="1521487966394" duration="480000" />
+      <workItem from="1522687505176" duration="2363000" />
+      <workItem from="1523892558084" duration="3053000" />
+      <workItem from="1524162458504" duration="76000" />
+      <workItem from="1524162869982" duration="779000" />
+      <workItem from="1524163777085" duration="1198000" />
+      <workItem from="1524590021571" duration="997000" />
+      <workItem from="1526670582616" duration="802000" />
+      <workItem from="1526671624284" duration="33000" />
+      <workItem from="1529584789944" duration="726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2555000" />
+    <option name="totallyTimeSpent" value="34823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -395,6 +445,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -415,11 +466,310 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update 1.0.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 1.0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sustentacao 1.0.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sustentacao 1.0.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="75" lean-forward="false" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sustentacao 1.0.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sustentacao 1.0.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sustentacao 1.0.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -432,9 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,8 +792,6 @@
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -476,26 +822,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Sustentacao.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4_9.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="680">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="1292">
+          <caret line="89" column="32" lean-forward="false" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="1105">
+          <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaFX/SampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -508,42 +866,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Sustentacao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Padroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Variaveis/Variaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaFX/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Principal/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="476">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/Metodos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Metodos/SalvarLerPadroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,6 +963,18 @@
               <list>
                 <option value="0.2045977" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

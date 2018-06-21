@@ -3,12 +3,15 @@ package Metodos;
 import Variaveis.Padroes;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
+import lombok.extern.java.Log;
 
-import javax.swing.*;
 import java.awt.*;
 import java.io.*;
-import java.nio.channels.FileChannel;
 
+import static javax.swing.JOptionPane.showInputDialog;
+import static javax.swing.JOptionPane.showMessageDialog;
+
+@Log
 public class SalvarLerPadroes {
 
     private static String local = (System.getProperty("user.dir")) + File.separator + "padroes.json";
@@ -28,7 +31,7 @@ public class SalvarLerPadroes {
                 }
                 f.createNewFile();
             } catch (IOException e) {
-                log("erro ocorreu: " + e.toString());
+                log.fine(String.format("erro ocorreu: %s", e.toString()));
             }
         }
 
@@ -42,14 +45,20 @@ public class SalvarLerPadroes {
             bufferWriter.write(myData.toString());
             bufferWriter.close();
 
-            log("Arquivos de diretórios padrões salvos em: " + local + " Dados: " + myData + "\n");
+            log.fine(String.format("Arquivos de diretórios padrões salvos em: %s Dados: %s\n", local, myData));
         } catch (IOException e) {
-            log("Hmm.. Ocorreu um erro enquanto era salvo o arquivo" + e.toString());
+            log.warning(String.format("Hmm.. Ocorreu um erro enquanto era salvo o arquivo%s", e.toString()));
         }
     }
 
-    private static void log(String string) {
-        System.out.println(string);
+    public static void abrirPasta(String caminho) {
+        try {
+            Desktop.getDesktop().open(new File(caminho));
+            log.fine(String.format("Diretório %s foi aberto com sucesso.", caminho));
+        } catch (IOException e) {
+            log.warning(String.format("Ocorreu um erro ao abrir a pasta: %s", caminho));
+            e.printStackTrace();
+        }
     }
 
     // Lê o arquivo
@@ -61,49 +70,33 @@ public class SalvarLerPadroes {
 
         if (!arquivoPadroes.exists()) {
             Toolkit.getDefaultToolkit().beep();
-            JOptionPane.showMessageDialog(null, "Arquivo de Caminhos Padrão não existe!");
-            p.setCaminhoChamados(JOptionPane.showInputDialog("Digite o caminho padrão para salvar os chamados"));
+            showMessageDialog(null, "Arquivo de Caminhos Padrão não existe!");
+            log.warning("Arquivo de Caminhos Padrão não existe!");
+            p.setCaminhoChamados(showInputDialog("Digite o caminho padrão para salvar os chamados"));
+            p.setCaminhoProblema(showInputDialog("Digite o caminho padrão para salvar os problemas"));
             p.setCaminhoGMUD("\\\\10.1.1.14\\ScriptsDesenv\\");
             try {
                 if (!p.getCaminhoChamados().isEmpty()) {
                     salvarArquivo(gson.toJson(p));
                 }
-            }catch (Exception e) {
-                log("Hmm.. Ocorreu um erro enquanto era salvo o arquivo" + e.toString());
+            } catch (Exception e) {
+                log.warning(String.format("Hmm.. Ocorreu um erro enquanto era salvo o arquivo%s.", e.toString()));
             }
         }
 
         try {
             isReader = new InputStreamReader(new FileInputStream(arquivoPadroes), "UTF-8");
         } catch (Exception e) {
-            log("erro ao carregar dados de arquivo " + e.toString());
+            log.warning(String.format("erro ao carregar dados de arquivo %s.", e.toString()));
         }
         myReader = new JsonReader(isReader);
         p = gson.fromJson(myReader, Padroes.class);
 
-        log("Caminho chamados: " + p.getCaminhoChamados());
-        log("Caminho GMUD: " + p.getCaminhoGMUD());
+        log.fine(String.format("Caminho chamados: %s", p.getCaminhoChamados()));
+        log.fine(String.format("Caminho GMUD: %s", p.getCaminhoGMUD()));
 
-        log("\nDados de caminho padrão carregados com sucesso do arquivo " + local);
+        log.fine(String.format("\nDados de caminho padrão carregados com sucesso do arquivo %s.", local));
         return p;
-    }
-
-    public static void copyFile(File source, File destination) throws IOException {
-        if (destination.exists())
-            destination.delete();
-        FileChannel sourceChannel = null;
-        FileChannel destinationChannel = null;
-        try {
-            sourceChannel = new FileInputStream(source).getChannel();
-            destinationChannel = new FileOutputStream(destination).getChannel();
-            sourceChannel.transferTo(0, sourceChannel.size(),
-                    destinationChannel);
-        } finally {
-            if (sourceChannel != null && sourceChannel.isOpen())
-                sourceChannel.close();
-            if (destinationChannel != null && destinationChannel.isOpen())
-                destinationChannel.close();
-        }
     }
 
 }

@@ -16,11 +16,11 @@ public class Principal {
         do {/* Inicio do laço de repetição que só para de "opcao" = 3 */
 
             /* Menu de opções */
-            opcao = JOptionPane.showInputDialog(" #Sustentação# \n0 - Criar Diretório de Chamado \n1 - Criar Diretório de GMUD \n2 - Gerenciar Caminho Padrão para Salvar Chamados \n3 - Sair :");
+            opcao = JOptionPane.showInputDialog(" #Sustentação# \n0 - Criar Diretório de Chamado \n1 - Criar Diretório de GMUD \n2 - Criar Diretório de Problema\n3 - Gerenciar Caminhos Padrões Chamados e Problemas \n4 - Sair :");
 
             switch (opcao) {/* Início do Switch do Menu */
                 case "0":/* Criar Diretório de Chamado */
-                    m.obterDadosChamado();
+                    m.obterDados("Chamado");
                     m.criarDirChamado();
                     break;
 
@@ -28,10 +28,16 @@ public class Principal {
                     m.criarDirGMUD();
                     break;
 
-                case "2":/* Alterar/Criar caminhos padrão */
+                case "2":/* Criar Diretório de Problema */
+                    m.obterDados("Problema");
+                    m.criarDirProblema();
+                    break;
+
+                case "3":/* Alterar/Criar caminhos padrão */
                     m.definirCaminhosPadrao();
                     break;
-                case "3":/* Sair */
+
+                case "4":/* Sair */
                     break;
                 default:
                     Toolkit.getDefaultToolkit().beep();
@@ -39,9 +45,9 @@ public class Principal {
                     break;
 
             }/* Fim do Switch do Menu */
-        } while (!opcao.contains("3"));/*
-         * Fim do laço de repetição que só para de
-         * "opcao" = 3
+        } while (!opcao.contains("4"));/*
+         * Fim do laço de repetição que só para se
+         * "opcao" = 4
          */
     }
 }
